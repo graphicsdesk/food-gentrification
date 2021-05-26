@@ -4,6 +4,8 @@ import { intersectTop } from './scripts/utils';
 
 import { spectate as spectateConfig } from '../package.json';
 
+import './scripts/table';
+
 // Main page initiation
 
 initiatePage();
