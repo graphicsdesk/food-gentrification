@@ -2,3 +2,40 @@
 
 // Uncomment the following line before publishing a News story
 // @import "styles/news-ellipsis";
+table {
+    table-layout:fixed;
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 12px garamond;
+    color: #FFFFFF;
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+th{
+    background-color: #1270f4;
+    height: 50px;
+    border: 1px black solid;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 45px;
+    font-size: 16px;
+}
+td {
+    border: 1px black solid;
+    padding: 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 14px;
+    word-wrap:break-word;
+}
+p{
+    color: #000000;
+}
+tr{
+    border: 1px black solid;
+    
+}
+tr:not(:nth-child(1)){
+    color: #000000;
+}
