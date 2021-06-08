@@ -1,35 +1,34 @@
 import data from '../../data/data1.json';
-const div = d3.select('.table');
-var svg = div.append('svg').append('g');
+
+
+const div = d3.select('#table');
+//var svg = div.append('svg').append('g');
 function tabulate(data, columns) {
 
-    var table = d3.select("body").append("table"),
+    var table = div.append("table"),
         thead = table.append("thead"),
         tbody = table.append("tbody");
 
-    var tooltip = d3.select("body")
+    var tooltip = d3.select("#table")
         .append("div")
         .style("opacity", 1)
         .attr("class", "tooltip")
-        .style("background-color", "black")
-        .style("border", "solid")
-        .style("border-width", "2px")
-        .style("border-radius", "5px")
         .style("padding", "5px")
     
       // Three function that change the tooltip when user hover / move / leave a cell
       var mouseover = function(d) {
+          console.log(this)
+          console.log(d)
         tooltip
           .style("opacity", 1)
+          .html("The exact value of<br>this cell is:")
+          .style("left", d.pageX + "px")
+          .style("top", d.pageY+ "px")
         d3.select(this)
           .style("stroke", "black")
           .style("opacity", 0.8)
       }
       var mousemove = function(d) {
-        tooltip
-          .html("The exact value of<br>this cell is:")
-          .style("left", event.pageX + "px")
-          .style("top", event.pageY+ "px")
       }
       var mouseleave = function(d) {
         tooltip
