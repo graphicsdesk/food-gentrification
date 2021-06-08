@@ -1,7 +1,7 @@
 import data from '../../data/data2.json';
 
-const div = d3.select('#table');
-var svg = div.append('svg').append('g');
+//const div = d3.select('#table');
+//var svg = div.append('svg').append('g');
 
 var dataAm = data.filter(function(d){
     return d.Address.includes("Amsterdam")        
@@ -13,9 +13,9 @@ var dataCo = data.filter(function(d){
     return !d.Address.includes("Broadway")&&!d.Address.includes("Amsterdam")     
 });
 
-function tabulate(data, columns) {
-
-    var table = div.append("table"),
+function tabulate(data, columns, div) {
+    console.log(d3.select(div))
+    var table = d3.select(div).append("table"),
         thead = table.append("thead"),
         tbody = table.append("tbody");
 
@@ -43,6 +43,8 @@ function tabulate(data, columns) {
         d3.select(this)
           .style("stroke", "none")
           .style("opacity", 1)
+        tooltip
+          .style("opacity", 0)
       }
 
     
@@ -125,9 +127,9 @@ function recolor(x) {
 }
 
     
-    tabulate(dataAm, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"]);
+    tabulate(dataAm, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"],'#table1');
     recolor(0);
-    tabulate(dataBr, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"]);
+    tabulate(dataBr, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"],'#table2');
     recolor(1);
-    tabulate(dataCo, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"]);
+    tabulate(dataCo, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"],'#table3');
     recolor(2);

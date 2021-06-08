@@ -3,6 +3,23 @@
 // Uncomment the following line before publishing a News story
 // @import "styles/news-ellipsis";
 
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+#table1 {
+    margin: 10 ;
+}
+
+#table2 {
+    margin: 10 ;
+}
+
+#table3 {
+    margin: 10 ;
+}
+
 table {
     table-layout:fixed;
     border-collapse: collapse;
