@@ -2,13 +2,14 @@
 
 // Uncomment the following line before publishing a News story
 // @import "styles/news-ellipsis";
+
 table {
     table-layout:fixed;
     border-collapse: collapse;
     border: 2px black solid;
     font: 12px garamond;
     color: #FFFFFF;
-    width: 75%;
+    width: 40%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -25,8 +26,10 @@ td {
     border: 1px black solid;
     padding: 5px;
     background-color: #FFFFFF;
-    color: #000000;
+    color: #FFFFFF;
     font-size: 14px;
+    height: 10%;
+    width:10px;
     word-wrap:break-word;
 }
 p{
@@ -34,6 +37,7 @@ p{
 }
 tr{
     border: 1px black solid;
+    height:10px;
     
 }
 tr:not(:nth-child(1)){
