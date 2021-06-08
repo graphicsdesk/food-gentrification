@@ -15,7 +15,7 @@ var dataCo = data.filter(function (d) {
 
 const tooltip = d3.select('.table-container')
   .append('div')
-  .style('opacity', 1)
+  .style('opacity', 0)
   .attr('class', 'tooltip')
   .style('padding', '5px');
 
