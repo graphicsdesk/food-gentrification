@@ -1,6 +1,5 @@
 import data from '../../data/data2.json';
-
-const div = d3.select('#table');
+const div = d3.select('.table');
 var svg = div.append('svg').append('g');
 
 var dataAm = data.filter(function(d){
@@ -13,32 +12,18 @@ var dataCo = data.filter(function(d){
     return !d.Address.includes("Broadway")&&!d.Address.includes("Amsterdam")     
 });
 
-function tabulate(data, columns) {
+function tabulate(data, columns,stname) {
 
-    var table = div.append("table"),
+    var table = d3.select("body").append("table").attr("class",stname),
         thead = table.append("thead"),
         tbody = table.append("tbody");
-
-    var tooltip = d3.select("#table")
-        .append("div")
-        .style("opacity", 1)
-        .attr("class", "tooltip")
-        .style("padding", "5px")
     
       // Three function that change the tooltip when user hover / move / leave a cell
       var mouseover = function(d) {
-          console.log(this.title)
-          console.log(d)
-        tooltip
-          .style("opacity", 1)
-          .html(this.title)
-          .style("left", d.pageX + "px")
-          .style("top", d.pageY+ "px")
         d3.select(this)
           .style("stroke", "black")
           .style("opacity", 0.8)
       }
-
       var mouseleave = function(d) {
         d3.select(this)
           .style("stroke", "none")
@@ -78,14 +63,15 @@ function tabulate(data, columns) {
         .append("td")
             .text(function(d) { return d.value; })
             .attr("title",function(d) { return d.value;})
-            .style("background-color","gray")
+            .style("background-color","#D3D3D3")
     
     table.selectAll("td")
     .on("mouseover", mouseover)
     .on("mouseleave", mouseleave);
 
     return table;
-      
+    
+    
 }
 //d3.csv("data.csv",function(data){
 function recolor(x) {  
@@ -108,16 +94,16 @@ function recolor(x) {
                 tds[h].style.color = "#a4c2f4";
             }
             if(dict[tds[h].innerHTML]=="chain"){
-                tds[h].style.backgroundColor = "#f9cb9c";
-                tds[h].style.color = "#f9cb9c";
+                tds[h].style.backgroundColor = "#FFA18E";
+                tds[h].style.color = "#FFA18E";
             }
             if(dict[tds[h].innerHTML]=="nyc chain"){
-                tds[h].style.backgroundColor = "#d5a6bd";
-                tds[h].style.color = "#d5a6bd";
+                tds[h].style.backgroundColor = "#FFE29A";
+                tds[h].style.color = "#FFE29A";
             }
             if(dict[tds[h].innerHTML]!="nyc chain"&&dict[tds[h].innerHTML]!="non-chain"&&dict[tds[h].innerHTML]!="chain"&&tds[h].title!="none"){
-                tds[h].style.backgroundColor = "green";
-                tds[h].style.color = "green";
+                tds[h].style.backgroundColor = "#DABEFF";
+                tds[h].style.color = "#DABEFF";
             }
             tds[h].innerHTML= "&nbsp;";
         }
@@ -125,9 +111,9 @@ function recolor(x) {
 }
 
     
-    tabulate(dataAm, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"]);
+    tabulate(dataAm, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"],"amsterdam");
     recolor(0);
-    tabulate(dataBr, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"]);
+    tabulate(dataBr, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"],"broadway");
     recolor(1);
-    tabulate(dataCo, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"]);
+    tabulate(dataCo, ["2008", "2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"],"rest");
     recolor(2);
