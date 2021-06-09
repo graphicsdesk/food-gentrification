@@ -50,7 +50,8 @@ table {
     margin-right: auto;
     table-layout:fixed;
     border-collapse: collapse;
-    border: 15px white solid;
+    border-left: 15px white solid;
+    border-right: 15px white solid;
     font-family: "Trebuchet-MS";
     word-wrap: break-word;
     color: #000000;
@@ -81,8 +82,8 @@ td {
     background-color: #FFFFFF;
     color: #FFFFFF;
     font-size: 0px;
-    width: 18px;
-    height: 23px;
+    width: 15px;
+    height: 20px;
     word-wrap:break-word;
 }
 p{
@@ -98,9 +99,7 @@ tr:not(:nth-child(1)){
 
 .tooltip {
     position: absolute;			
-    text-align: center;			
-    width: 60px;					
-    height: 28px;					
+    text-align: center;					
     padding: 2px;				
     font: 12px sans-serif;		
     background: lightsteelblue;	

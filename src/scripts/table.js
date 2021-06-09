@@ -17,7 +17,9 @@ const tooltip = d3.select('.table-container')
   .append('div')
   .style('opacity', 0)
   .attr('class', 'tooltip')
-  .style('padding', '5px');
+  .style('padding', '5px')
+  .style('min-height', "10px")
+  .style('max-height', "255px");
 
 function tabulate(data, columns, div) {
   console.log(d3.select(div));
@@ -33,7 +35,7 @@ function tabulate(data, columns, div) {
       .style('opacity', 1)
       .html(this.title)
       .style('left', d.pageX + 'px')
-      .style('top', d.pageY + 'px');
+      .style('top', d.pageY + 'px')
     d3.select(this).style('stroke', 'black').style('opacity', 0.8);
   };
 
