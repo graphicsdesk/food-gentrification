@@ -1,39 +1,39 @@
 <div class="legend-container">
-    <div id="chain">
-        <p>chain restaurant</p>
-        <div style="width:10px;height:10px;background-color: #FFA18E;"></div>
-        
-    </div>
-    <div id="nyc-chain">
-        <p>NYC chain restaurant</p>
-        <div style="width:10px;height:10px;background-color: #FFE29A;"></div>
-        
-    </div>
-    <div id="non-chain">
-        <p>not a chain restaurant</p>
-        <div style="width:10px;height:10px;background-color: #a4c2f4;"></div>
-        
-    </div>
-    <div id="no-data">
-        <p>no data</p>
-        <div style="width:10px;height:10px;background-color: #DABEFF;"></div>
-        
-    </div>
-    <div id="no-restaurant">
-        <p>no data</p>
-        <div style="width:10px;height:10px;background-color: #D3D3D3;"></div>
-        
-    </div>
+  <div id="chain">
+    <p>chain restaurant</p>
+    <div style="width: 10px; height: 10px; background-color: #ffa18e"></div>
+  </div>
+  <div id="nyc-chain">
+    <p>NYC chain restaurant</p>
+    <div style="width: 10px; height: 10px; background-color: #ffe29a"></div>
+  </div>
+  <div id="non-chain">
+    <p>not a chain restaurant</p>
+    <div style="width: 10px; height: 10px; background-color: #a4c2f4"></div>
+  </div>
+  <div id="no-data">
+    <p>no data</p>
+    <div style="width: 10px; height: 10px; background-color: #dabeff"></div>
+  </div>
+  <div id="no-restaurant">
+    <p>no restaurant</p>
+    <div style="width: 10px; height: 10px; background-color: #d3d3d3"></div>
+  </div>
 </div>
 
-<div class="table-container">
-  <div id="table1">
-      <p>Amsterdam Avenue</p>
-  </div>
-  <div id="table2">
+<div class="graphics-container">
+  <div class="another-container">
     <p>Broadway</p>
+    <div class="year-container">
+        <p>2008</p>
+        <p>2021</p>
+    </div>
+    <div id="table">
+    </div>
   </div>
-  <div id="table3">
-    <p>Columbua Avenue & Others</p>
+  <div class="steps-container">
+    <each loop="text in item.value.steps">
+      <p class="paragraph">{{{ text }}}</p>
+    </each>
   </div>
 </div>

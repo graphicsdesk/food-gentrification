@@ -1,19 +1,17 @@
 import data from '../../data/data2.json';
 
-//const div = d3.select('#table');
-//var svg = div.append('svg').append('g');
 
-var dataAm = data.filter(function (d) {
-  return d.Address.includes('Amsterdam');
-});
+// var dataAm = data.filter(function (d) {
+//   return d.Address.includes('Amsterdam');
+// });
+// var dataCo = data.filter(function (d) {
+//   return !d.Address.includes('Broadway') && !d.Address.includes('Amsterdam');
+// });
 var dataBr = data.filter(function (d) {
-  return d.Address.includes('Broadway');
-});
-var dataCo = data.filter(function (d) {
-  return !d.Address.includes('Broadway') && !d.Address.includes('Amsterdam');
-});
+    return d.Address.includes('Broadway');
+  });
 
-const tooltip = d3.select('.table-container')
+const tooltip = d3.select('#table')
   .append('div')
   .style('opacity', 0)
   .attr('class', 'tooltip')
@@ -21,9 +19,8 @@ const tooltip = d3.select('.table-container')
   .style('min-height', "10px")
   .style('max-height', "255px");
 
-function tabulate(data, columns, div) {
-  console.log(d3.select(div));
-  var table = d3.select(div).append('table'),
+function tabulate(data, columns) {
+  var table = d3.select('#table').append('table'),
     thead = table.append('thead'),
     tbody = table.append('tbody');
 
@@ -43,17 +40,6 @@ function tabulate(data, columns, div) {
     d3.select(this).style('stroke', 'none').style('opacity', 1);
     tooltip.style('opacity', 0);
   };
-
-  // Append the header row
-//   thead
-//     .append('tr')
-//     .selectAll('th')
-//     .data(columns)
-//     .enter()
-//     .append('th')
-//     .text(function (column) {
-//       return column;
-//     });
 
   // Create a row for each object in the data
   var rows = tbody
@@ -92,6 +78,7 @@ function tabulate(data, columns, div) {
 //d3.csv("data.csv",function(data){
 function recolor(x) {  
     var t = document.getElementsByTagName("TABLE");
+    console.log(t)
     var tbs = t[x].getElementsByTagName("TBODY");
     var trs = tbs[0].getElementsByTagName("TR");
     var tds = null;
@@ -127,7 +114,7 @@ function recolor(x) {
   }
 
 tabulate(
-  dataAm,
+    dataBr,
   [
     '2008',
     '2009',
@@ -144,48 +131,7 @@ tabulate(
     '2020',
     '2021',
   ],
-  '#table1',
 );
 recolor(0);
-tabulate(
-  dataBr,
-  [
-    '2008',
-    '2009',
-    '2010',
-    '2011',
-    '2012',
-    '2013',
-    '2014',
-    '2015',
-    '2016',
-    '2017',
-    '2018',
-    '2019',
-    '2020',
-    '2021',
-  ],
-  '#table2',
-);
-recolor(1);
-tabulate(
-  dataCo,
-  [
-    '2008',
-    '2009',
-    '2010',
-    '2011',
-    '2012',
-    '2013',
-    '2014',
-    '2015',
-    '2016',
-    '2017',
-    '2018',
-    '2019',
-    '2020',
-    '2021',
-  ],
-  '#table3',
-);
-recolor(2);
+
+
