@@ -7,40 +7,661 @@
       "root": "./src/partials",
       "locals": {
         "top": [],
-        "body": [
-          {
-            "type": "graphic",
-            "value": {
-              "asset": "table.html",
-              "steps": [
-                "<b>Note to copy: </b>calculations in annotation 2 and 3 were done in python -- contact Jessica or Andrew for clarification. Many can also be checked manually from the graphic/table linked in the trello card.",
-                "<b>Annotation 1</b>: Between 2017 and 2018, the address at 116th and Broadway 2955 went from being occupied by Vine Sushi & Sake, a non-chain restaurant, to Pret a Manger, a national chain.",
-                "<b>Annotation 2</b>: Of the 39 non-chain restaurants on Broadway in 2008, 11 left their Broadway address at some point in the last 13 years. Between 2008 and 2021, the percentage of restaurants on Broadway that were national chains or New York City chains increased from 32 percent% to 47 percent%.",
-                "<b>Annotation 3</b>: Between 2008 and 2021, the percentage of national and New York City chain restaurants on Amsterdam increased from 9 percent% to 22%. In contrast, the percentage of national and NYC chain restaurants on Columbus Avenue and other surrounding areas decreased from 15.5% to 12.5% between 2008 and 2021, with the majority of new restaurants in the area being non-chain restaurants."
-              ]
+        "body": [],
+        "headline": "The Changing Food Landscape: How The Columbia area shifted from mom-and-pop restaurants to a hotspot for chains and trendy eats",
+        "date": "June 16, 2021",
+        "byline": "Noah Sheidlower, <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+        "pages": {
+          "page_0_link": "",
+          "page_0_title": "",
+          "page_0_cover_img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZFLZ4YW5KZBUVJG5FITZIH655Q.JPG",
+          "page_0_cover_caption": "",
+          "page_0_heading": "Part 1",
+          "page_0_date": "June 16, 2021",
+          "page_0_byline": "By Noah Sheidlower, <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+          "page_1_link": "",
+          "page_1_title": "Food Gentrification and its Impact on the Community",
+          "page_1_cover_img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MNTQUFNQVZAJDNL2GQ56XUGPF4.jpg",
+          "page_1_cover_caption": "",
+          "page_1_heading": "Part 2",
+          "page_1_date": "June 16, 2021",
+          "page_1_byline": "By Noah Sheidlower, <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+          "page_2_link": "",
+          "page_2_title": "Combatting ‘chainification’ and food gentrification",
+          "page_2_cover_img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/D6MAYEHD4ZGMXEM7NMV2IIN6BY.JPG",
+          "page_2_cover_caption": "",
+          "page_2_heading": "Part 3",
+          "page_2_byline": "By Noah Sheidlower, <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+          "page_2_date": "June 16, 2021"
+        },
+        "bodies": {
+          "page_0": [
+            {
+              "type": "text",
+              "value": "When Dan McSweeney grew up in Morningside Heights over four decades ago, mom-and-pop shops were on every block, catering to longtime residents and Columbia students alike. To McSweeney, the area—featuring everything from legendary Chinese eatery Moon Palace to the homey College Inn—possessed a lot of character and local charm, with some small businesses helping to pioneer major literary and social movements like the Beat Generation and the movement for LGBTQ rights."
+            },
+            {
+              "type": "text",
+              "value": "Then came the first national chains. Soon after, these iconic small businesses began to shut down one after another. And over the course of a decade, the area has become a haven for trendy and chain restaurants along Broadway and Amsterdam Avenue, with many locally owned restaurants struggling to hang on."
+            },
+            {
+              "type": "text",
+              "value": "“What we’re experiencing in Morningside Heights is essentially corporatization of retail commerce, so chain stores have been moving in, and mom-and-pop shops unfortunately are dwindling,” McSweeney, who works at the Morningside Heights Historic District Committee, said. “I think many advocates in the community feel that this diminishes the local character and quality of life because locally owned businesses are a mainstay of local culture and … support networks or social networks.”"
+            },
+            {
+              "type": "text",
+              "value": "The Morningside Heights restaurant scene has changed drastically over the last few decades. More people started viewing dining as a social experience, and the culture surrounding dining changed with it. The sheer number of restaurants in the area has also grown, featuring an increasingly diverse selection of eateries that serve cuisines from across the globe."
+            },
+            {
+              "type": "text",
+              "value": "Yet as rents continue to rise due to factors like gentrification and food becomes even less affordable for people with lower incomes, this diversity is at risk. The relationship between the University and smaller non-Columbia tenant restaurants has also become increasingly fraught as more chain restaurants move into Columbia-owned properties."
+            },
+            {
+              "type": "text",
+              "value": "“Historically, [Columbia] always said that they would like to keep the neighborhood mom-and-pop type stores,” Alex Turboff, vice president of real estate at BCD, a real estate brokerage firm for restaurants and retail, said. “But what we’ve seen, especially on Broadway, is that the mom and pops are not able to pay the rent that the national and regional brands are able to support just because of throughput—the amount of bodies and people that come through the business—when the local operator may not achieve the same kind of levels as a national brand.”"
+            },
+            {
+              "type": "subhed",
+              "value": "<b>The growth of the chains and trendy restaurants</b>"
+            },
+            {
+              "type": "text",
+              "value": "McSweeney, who has been working on an oral history project documenting the restaurant scene in Morningside Heights, recalled that only in the past decade has the growth of chain restaurants near campus skyrocketed. The sense of community that developed at local eateries has dwindled for McSweeney, who noted that the social aspect of the restaurant scene has become more of a distant memory."
+            },
+            {
+              "type": "text",
+              "value": "“As these businesses get replaced, it seems mainly by chain stores or banks, people have a tendency to forget those shops,” McSweeney said. “The new landscape is not as conducive to supporting the idea of local culture—local shared memory because they’re corporate. The people who work in them or manage them or own them don’t necessarily have links to this neighborhood, and it’s more difficult to establish an ongoing relationship with the chain stores because they seem so remote and institutional.”"
+            },
+            {
+              "type": "text",
+              "value": "Spectator analyzed data from 2008-21 on the evolution of the restaurant offerings around campus. From 2009 to 2019, 67 chain locations opened, with 32 of those being national chains and 35 of those being chains specific to New York City or the Northeast. In the same time period, only 33 chain locations closed, with 13 of those being national chains. Chains that opened multiple locations during this timespan include Starbucks, Dunkin', Subway, and Serafina."
+            },
+            {
+              "type": "text",
+              "value": "Many of the locals interviewed noted that Morningside Heights and West Harlem look nothing like they did a few decades ago. McSweeney recalled how even 20 years ago, most food options in the area were locally owned and only had one or two locations near campus. Since eating out regularly was not as common and the fast casual concept had not yet gained traction, restaurants in the area were often family-owned and catered to both students and longtime residents. However, as rents rose and the University expanded, McSweeney started to notice a major shift in the neighborhood’s restaurant scene."
+            },
+            {
+              "type": "text",
+              "value": "“[The prices] would have been unthinkable—I think even 20 years ago, let alone 50 years ago, the prices being for the rent but also for the goods that are offered at the shops, if they're locally owned and they’re boutique type stores,” McSweeney said. “In Morningside Heights especially, it's not completely a free market because the institutions own the majority of the land in Morningside Heights. So there are certain parameters that the institutions place on the businesses that can potentially either emerge here or continue to operate here.”"
+            },
+            {
+              "type": "text",
+              "value": "Kaaryn Nailor Simmons, director of the Columbia-Harlem Small Business Development Center, attributes these changes to the growth of economic opportunities, changes in immigration patterns, and shifts in food culture throughout the city. She noted that Morningside Heights followed a similar trend to the country as a whole, becoming more developed and wealthier over the last few decades."
+            },
+            {
+              "type": "text",
+              "value": "“[New York] is an interesting place because historically, it’s kind of a starting point for immigrants, and they live here for a number of decades. And then families kind of do well, and they move out to the suburbs, or they move to the Midwest or wherever it is,” Nailor Simmons said. “At the same time, there’s also been a population shift. There are more people just living in New York City; there’s eight million people living in New York City. When I was a kid, there were maybe four or five million people, but it’s a very different place than it was 30 years ago.”"
+            },
+            {
+              "type": "text",
+              "value": "These demographic shifts are reflected in the changing restaurant scene around campus. When Nailor Simmons was a child, for instance, getting a slice of pizza once a month was a big event, whereas now, her children expect a restaurant meal two or three times a week. The number of chains and fast casual restaurants in the area has increased in part because people’s lifestyles have transformed significantly."
+            },
+            {
+              "type": "text",
+              "value": "“If we’re talking about restaurants in general, people like to eat, and they like to feel special. They like to feel like after a hard day of work or a hard day of caring for their family that everyone deserves a treat, and often, that’s what a restaurant does,” Nailor Simmons said. “You want to be treated a certain way, and you want to be nourished a certain way, and I think that’s kind of why the proliferation of restaurants has really been very important not just in New York and Upper Manhattan, but around the country.”"
+            },
+            {
+              "type": "text",
+              "value": "According to Andre Neyrey, the owner and president of Blackwood Hospitality, the restaurant scene in Morningside Heights has historically never been as lively or diverse as the Upper West Side, and he noted that the scene “kind of died” at 96th Street. Because rents increased rapidly in Morningside Heights and less people from outside the area traveled to dine at Morningside Heights restaurants in comparison to those on the Upper West Side, smaller eateries struggled to attract the client base necessary to stay open."
+            },
+            {
+              "type": "text",
+              "value": "However, because Morningside Heights and West Harlem rents were cheaper in comparison to the Upper West Side, Neyrey noted that younger people moved into the area at higher rates. While the student population in campus housing has remained relatively constant over the past few decades, the area became overall younger and therefore trendier. Restaurateurs were more willing to take a risk and open more experimental or trendy spots, which led the overall restaurant scene to become less affordable. When newer and more expensive restaurants opened near campus, local restaurants had to fight even harder to compete with already successful concepts, leading to the closing of many longtime favorites."
+            },
+            {
+              "type": "text",
+              "value": "The real median gross rent in Morningside Heights increased from <a href=\"https://furmancenter.org/neighborhoods/view/morningside-heights-hamilton\">$1,020 in 2006 to $1,530 in 2019</a>, which amounts to $18,360 per year. The median household income of the Morningside Heights area in 2019 was $69,540, which is extremely close to the median citywide household income at $70,590. However, the area also has an above-average poverty rate, at 19.6 percent in 2019 compared to 16 percent across the city. Between 1990 to 2010-2014, rents increased by 36.7 percent in Morningside Heights and Hamilton Heights."
+            },
+            {
+              "type": "text",
+              "value": "In 2019, 29.3 percent of renter households in the area were severely rent burdened, meaning that they spent more than half of household income on rent. Due to these individuals’ dire financial conditions, they have little money to spend on food options, thereby making them more reliant on chain eateries or, in some cases, forcing them out of the area."
+            },
+            {
+              "type": "text",
+              "value": "In 2019, in Central Harlem—where many chains and trendy restaurants have opened up recently—the <a href=\"https://furmancenter.org/neighborhoods/view/central-harlem\">median household income </a>was $55,870, 21 percent less than the citywide rate. While real median gross rent was cheaper in Central Harlem at $1,260 in 2019, or $15,120 per year, only 23.7 percent of renter households were severely rent burdened."
+            },
+            {
+              "type": "text",
+              "value": "According to Yong Zhao, the CEO of Chinese fast casual eatery Junzi with five locations across New York and Connecticut, Junzi’s executives wanted to open the eatery’s second location by Columbia to build up its brand in an area with high foot traffic and competition along Broadway. Because opening up a restaurant is “very risky” in New York, Junzi’s executives desired a location that already attracted a younger demographic and had a thriving restaurant scene."
+            },
+            {
+              "type": "text",
+              "value": "“There’s also that sentiment of how when you enter a new market, you want to make sure you’re tapping into the tastemakers … Columbia’s campus and the surrounding population is exactly that niche market,” Nicky Chang, vice president of brand & design at Junzi, said. “The student body and the staff members and their families, in our opinion, are really like pacemakers in the New York market. They are relatively well traveled, and they have been exposed to really good food in New York.”"
+            },
+            {
+              "type": "text",
+              "value": "Chains can thrive around Columbia because they have the resources to pay for skyrocketing rents, according to Anthony Advincula, director of communications at Restaurant Opportunities Centers United. As a student at the Columbia School of Journalism, Advincula remembered only being able to afford chains in the area since chains could drive down prices and outcompete smaller restaurants, in part because of the support they receive from policymakers."
+            },
+            {
+              "type": "text",
+              "value": "“[Chains] had the lease for 10 years, a much longer period as compared to [other] restaurant business owners. If you increase the rent of that, they don’t have enough resources or enough [of a] cushion to really support that,” Advincula said. “Ultimately, the business doesn’t survive. That’s very apparent in New York City and that’s why it all boils down to the corporation. They have bigger resources and bigger support systems because they lobby.”"
+            },
+            {
+              "type": "graphic",
+              "value": {
+                "asset": "table.html",
+                "steps": [
+                  "Between 2017 and 2018, the address 2955 Broadway went from being occupied by Vine Sushi & Sake, a non-chain restaurant, to Pret a Manger, a national chain.",
+                  "Of the 39 non-chain restaurants on Broadway in 2008, 10 left their Broadway address at some point in the last 13 years. Between 2008 and 2021, the percentage of restaurants on Broadway that were national chains or New York City chains increased from 32 percent to 47 percent.",
+                  "Between 2008 and 2021, the percentage of national and New York City chain restaurants on Amsterdam Avenue increased from 9 percent to 22 percent. In contrast, the percentage of national and New York City chain restaurants on Columbus Avenue and other surrounding areas decreased from 15.5 percent to 12.5 percent between that same period, with the majority of new restaurants in the area being non-chain restaurants."
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "While the Columbia area has attracted the big name chains such as McDonald’s and Chipotle, many more upscale chain eateries, including Dig and Sweetgreen, have opened locations along Broadway. According to Eric Sarmiento, assistant professor in the department of geography at Texas State University, college towns have experienced a major growth in these more pricey student-oriented chain restaurants, which sometimes charge twice the price of more widespread chains."
+            },
+            {
+              "type": "text",
+              "value": "“They’re not like McDonald’s or Taco Bell, the kinds of chains that flourish in low-income areas,” Sarmiento said. “They’re still cheap-quality, poor-quality fast food, but they’re more expensive. … I’ve been thinking of them as sort of like the Target of fast food, whereas McDonald’s is kind of more like the Walmart of fast food.”"
+            },
+            {
+              "type": "text",
+              "value": "By opening up locations near universities, Sarmiento believes these types of chains can make some profit by benefiting from economies of scale, a proportionate saving in costs from increased production levels. Neyrey attributes the growth of chains to their proximity to colleges, since students often frequent chains out of convenience and spread the word about them."
+            },
+            {
+              "type": "text",
+              "value": "“[College towns] drove all of the chain growth. Domino’s got started [in that] they kept opening by colleges because they … could deliver 30 of them into a dorm room,” Neyrey said. “But New York is unique in that Columbia in a small town would <i>be</i> the town. There’s a lot of students. They’re going to demand better quality stuff or different types of restaurants and more variety.”"
+            },
+            {
+              "type": "text",
+              "value": "According to Neyrey, chain restaurants “either set the mark or they follow the mark.” He suspects that once the first few chains opened on Broadway, many others jumped on the bandwagon and looked for more visible locations next to other chains."
+            },
+            {
+              "type": "text",
+              "value": "Sarmiento, who also used to work at Labyrinth Books—which is now Book Culture—questioned the claim that chain restaurants really opened around Columbia to maximize profits. Although some chains have raised their prices considerably around Columbia compared to other parts of the city, many have kept their prices consistent, which when combined with sky-high rents leaves little room for significant profit margins. Sarmiento believes the business model of many nationwide chains makes it so that standard prices and high rents would be rather unsustainable."
+            },
+            {
+              "type": "text",
+              "value": "“Just by being kind of in prestigious neighborhoods with Columbia and obviously attracting the students, the faculty, the visiting scholars that are coming there, there’s maybe just sort of a cultural cachet for being in that area that somehow benefits them, even if they’re not making money off those spaces,” Sarmiento said."
+            },
+            {
+              "type": "text",
+              "value": "Sarmiento also hypothesized that even just by opening in affluent or bustling areas like Morningside Heights, chains may even experience rises in stock prices. He believes there might be an analogue in the fast-food industry for what is occurring in the housing market, in which people are building far in excess of demand."
+            },
+            {
+              "type": "text",
+              "value": "Yet according to Nailor Simmons, rising rent is just one component of the growing commercialization of Morningside Heights and West Harlem. Up until around five or six years ago, areas like West and Central Harlem did not have near the number of restaurants as what are currently open, but with more people moving into the area and taking advantage of all that restaurants have to offer, more have proliferated in the area than ever before."
+            },
+            {
+              "type": "text",
+              "value": "Although increased rents played a role in the closure of many mom-and-pop restaurants nearby, Nailor Simmons also attributes these recent closures to restaurants not adapting to industry trends or being methodical about appealing to the area’s diverse demographic. Because restaurants have such tight margins, places that do not constantly think about numbers or about getting new clients will not survive in a hypercompetitive market. Nailor Simmons found that for many of the restaurants that closed pre-COVID-19, “operations were not, quite frankly, up to date, or their product mix was not current or exactly what the community was looking for at that time.”"
+            },
+            {
+              "type": "text",
+              "value": "“The more competition a restaurant has, the more that they have to actually go out and market themselves, [and] the more that they have to stay current,” Nailor Simmons said. “The thing with restaurants that people don’t always realize, it’s not a food business. It’s a hospitality business. So you have to really think through how are you creating a hospitable experience or a certain experience for your patrons.”"
+            },
+            {
+              "type": "text",
+              "value": "One aspect of these shifts is the reliance on online ordering and delivery, which has both helped and hindered chain restaurants and retailers. According to Kate Ascher, the Milstein professor of Urban Development at Graduate School of Architecture, Planning and Preservation, the emergence of online buying has led many retailers to close since people now have the convenience of ordering from anywhere for cheaper. In these empty storefronts previously occupied by shoe stores or clothing boutiques—which Ascher considers a vacuum of space—come businesses that cannot be replaced so easily: restaurants."
+            },
+            {
+              "type": "text",
+              "value": "However, to some extent, online ordering has hindered smaller businesses that cannot necessarily afford to advertise online or partner with delivery apps. When apps like DoorDash and Seamless take upwards of 30 percent of the total cost for themselves, restaurants without the economic security of larger chains either have to risk making little profit on every order or hiring their own delivery people, which is not only costly but detrimental to marketing to the community. Additionally, now that people can order food from anywhere in the city, trendier restaurants that have more appeal or name recognition may do more orders around campus."
+            },
+            {
+              "type": "text",
+              "value": "“Why would you necessarily limit yourself to the restaurants in the neighborhood, especially if you feel like those restaurants don’t have exactly what you want?” Nailor Simmons asked."
+            },
+            {
+              "type": "text",
+              "value": "Although delivery apps have lessened the importance of a restaurant’s immediate proximity to students, Neyrey believes that some chains seek locations around college campuses in order to increase publicity and expand their markets to new areas, even though they will not be making enormous profits per order."
+            },
+            {
+              "type": "text",
+              "value": "“On Broadway, it’s kind of like a flagship, they may be hoping that people that are meeting at this restaurant now may be a customer for life,” Neyrey said. “They will make it up in volume. They’re not charging any more, but they may do a heavier foot traffic because there’s potential customers there. From a corporate standpoint they might need to just spur growth, trying to grow, and you run out of areas as a chain.”"
+            },
+            {
+              "type": "text",
+              "value": "Sarmiento does believe that because so many chains are Columbia tenants, the University may give these chains added stability by acting as a fair and just landlord. In addition to keeping rent prices rather stable over the last decade, for example, Columbia gave two months of free rent to its restaurant tenants at the start of the pandemic. Plenty of tenants have taken advantage of Columbia as a landlord, with 13 of the 24 restaurants that rent from the University—and were open as of June 2020—having multiple locations. Columbia has also recently signed tenant contracts with two new restaurants that also operate other locations throughout the city: Roberta’s and SAPPS."
+            },
+            {
+              "type": "text",
+              "value": "According to Ascher, Columbia used to have a policy in which it would not rent its property to chain restaurants. However, this policy has since been altered, especially when many Columbia tenants along Broadway are indeed chains. Additionally, some on-campus food businesses like Joe Coffee Company are chains with locations all throughout the city."
+            },
+            {
+              "type": "text",
+              "value": "Analena Hassberg, an assistant professor of ethnic and women’s studies at California State Polytechnic University, has studied food gentrification and is well acquainted with the nationwide phenomenon of strong relationships existing between universities and restaurant chains. This phenomenon is part of a broader trend wherein corporations and wealthy institutions can “skirt and evade the tax brackets and the kind of financial penalties that the rest of us are beholden to.” If a small business does not pay rent, for instance, then the owners are out on the street. Large chains like Chipotle, meanwhile, can occupy properties near campus for little to no rent and easily afford it."
+            },
+            {
+              "type": "text",
+              "value": "“[Chains] are creating space for themselves ... in these institutions where they know that there will be a captive audience,” Hassberg said. “It’s like having a restaurant in the airport. People are hungry, they’re going to pay five bucks for that water bottle when it’s only worth 75 cents.”"
+            },
+            {
+              "type": "text",
+              "value": "According to Turboff, universities generally rent out to chain tenants because they are more comfortable with a recognizable brand that has both private equity and a strong customer base. With significant financial backing from investors and greater economic resources, chain restaurants make ideal tenants because they have a lower chance of missing a rent payment."
+            },
+            {
+              "type": "text",
+              "value": "“Landlords want reliable returns when they rent. Thinking of the landlord, when choosing between a new experimental business with a potentially exciting business plan and an established chain for whom, even if the individual locations struggle, there would be funding to pay the rent, from other sources, corporate headquarters or whatever. You might very well make the sort of economically rational choice to go with a chain business, rather than something less likely to pay the rent on time,” Aaron Passell, associate director of urban studies at Barnard, said."
+            },
+            {
+              "type": "text",
+              "value": "While chains and more upscale restaurants have sprouted up all around campus in the last few years, Broadway has seen considerably more commercialization than Amsterdam or Columbus Avenues. According to Turboff, the larger storefronts of properties along Broadway better lend themselves to the prototypical layout that many chains have; chains with more individualized storefronts would not look toward Columbus Avenue, whose three or four-story buildings have smaller footprints. Thus, more local businesses like delis or pizzerias often buy properties along Columbus since they require less space and do not need to fit Broadway’s box models."
+            },
+            {
+              "type": "text",
+              "value": "“A lot of times the property along Broadway are bigger buildings that have allowed for more of a box,” Turboff said. “The layout of the space is more functional, they’re the right size, they’re the right width, they have less columns, they have more infrastructure in place in the way of higher electricity or the size of the water line. So those things can also lend itself to [why] wide national [chains] choose to go on Broadway versus perhaps going into a smaller building on Columbus.”"
+            },
+            {
+              "type": "text",
+              "value": "Broadway’s positioning by the subway also likely contributed to the rapid commercialization of the street to a much greater extent than Amsterdam or Columbus Avenues, according to Neyrey."
+            },
+            {
+              "type": "text",
+              "value": "“It’s graphic, it’s visual. People are drawn to Broadway because there’s more activity on Broadway, it’s always been that way. … So you have a lot of pull, so when you have a lot more pull, traffic, visibility, subway stops, all of that plays into it with the foot traffic,” Neyrey said."
+            },
+            {
+              "type": "text",
+              "value": "According to Sharon Zukin, professor emerita of sociology at Brooklyn College and the City University of New York Graduate Center, shopping streets like Amsterdam Avenue and Columbus Avenue are more quiet and tend to have more diverse and trendy restaurants as compared to busier streets like Broadway. One of her colleagues noted that trendier restaurants like to open on smaller streets for aesthetic reasons, although Zukin also attributes this to rent disparities."
+            },
+            {
+              "type": "text",
+              "value": "“Those kinds of restaurants are particularly in [areas] where the income level is not really high. Those kinds of restaurants can't pay high rents,” Zukin said. “They would have to look on the smaller streets, not on the main streets, and also maybe … those kinds of restaurants want the aesthetic of small blocks, small footprints, meaning small size of the restaurant storefront, and more quiet, less traffic.”"
+            },
+            {
+              "type": "text",
+              "value": "National chains have faced little turnover, but some like Subway have recently closed in the area. There has, however, been significant turnover and churn along Broadway south of campus, particularly among small businesses and retail chains. Due to the development of online shopping, many retail and clothing stores have shuttered their doors recently, leaving many empty storefronts along Broadway."
+            },
+            {
+              "type": "text",
+              "value": "“So there’s just been so much of a decline in the need to go into a store that it has hit retail across the city and other cities, obviously, in a big way, … which is why so much of that vacuum has been filled by restaurants, bars, stuff like that, things you can’t replace by being at home,” Ascher said. “That’s just a trend everywhere. That's what the real estate world is looking into now is that they want to have experiences. They want to make eating and drinking an experience, [and] pull people out because it’s really hard to pull people out to buy stuff."
+            },
+            {
+              "type": "text",
+              "value": "Though many rents have dropped for many Broadway properties due to the prevalence of empty storefronts, some retail outlets have not received this cushion. When Ascher lived on Broadway and 105th Street, she found that a longstanding restaurant had to close because the landlord wanted too much rent after its lease was up. This massive rise in rent pushed that restaurant and many others in the area to close or sell to another ambitious restaurateur."
+            },
+            {
+              "type": "text",
+              "value": "Neyrey cites the example of a local mom and pop Irish pub named Tara Hill, which was located on the corner of Broadway and 108th Street. The rent for Tara Hill went from $15,000 per month during its lease to $35,000 per month from one day to the next."
+            },
+            {
+              "type": "text",
+              "value": "“When they go to renew their lease and the landlord wants to double the rent, and they’re barely making it on what they’ve had now, that rent, you have to go,” Neyrey said. “So it’s not [that] you go out of business, your lease expires and you close, and that happens to a lot of mom and pop shops. I think that that’s detrimental to the neighborhood. It’s positive in some areas, you get some change and some new restaurants, but to knock out your restaurant kills the charm of the neighborhood or the community, especially when a chain goes in.”"
+            },
+            {
+              "type": "text",
+              "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
+            },
+            {
+              "type": "text",
+              "value": "<i>Andrew Park is a Graphics reporter. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
+            },
+            {
+              "type": "footer",
+              "value": "<p><b>Methodology</b>: Using Google Street View, we “walked” down the streets in the Columbia area and noted what restaurant occupied each space from 2008 through 2019. For most data points, Street View versions were available for 2008, 2009, 2012, 2013, 2014, 2016, 2017, and 2019. We then determined whether these restaurants were single storefronts, New York City based chains, or national chains.</p>"
             }
-          },
-          {
-            "type": "text",
-            "value": "<b>Methodology</b>- Using Google Street View, we “walked” down the streets in the Columbia area and noted what restaurant occupied each space from 2008 through 2019. For most data points, Street View versions were available for 2008, 2009, 2012, 2013, 2014, 2016, 2017, and 2019. We then determined whether these restaurants were single storefronts, NYC-based chains, or national chains."
-          },
-          {
-            "type": "text",
-            "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
-          },
-          {
-            "type": "text",
-            "value": "<i>Andrew Park is a Graphics reporter. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
-          }
-        ],
-        "headline": "Food Gentrification Graphics Text",
-        "date": "June 8, 2021",
-        "byline": "<a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+          ],
+          "page_1": [
+            {
+              "type": "text",
+              "value": "Historically, the Morningside Heights, Hamilton Heights, and West Harlem neighborhoods have been predominantly populated by Black and Latinx communities. In 2000, Morningside Heights and Hamilton Heights in Manhattan Community District 9 were only 20.3 percent white,  29.1 percent Black, and 42.7 percent Hispanic. West Harlem was once a hub for Southern and soul food restaurants, catering to its predominantly working-class population."
+            },
+            {
+              "type": "text",
+              "value": "Over the past two decades, however, these areas have become home to wealthier and whiter populations. In 2019, Morningside Heights and Hamilton Heights were 35.7 percent white and only 15.2 percent Black and 37 percent Hispanic. During this time period, rent has increased significantly in both areas, leading many people of color to leave the area for neighborhoods like Central and East Harlem or further uptown. Many lower-income populations nearby live in public housing projects, such as the Grant Houses and Frederick Douglass Houses, around which pricier supermarkets and restaurants are opening."
+            },
+            {
+              "type": "text",
+              "value": "Morningside Heights and West Harlem have attracted a wide range of cuisines that have taken the place of many mom-and-pop restaurants. Along with this, activists have been fighting for access to more affordable and healthier options for lower-income communities, as places around campus have become increasingly trendier and more expensive. Lower-income residents often must travel outside their neighborhoods to cheaper, non-chain grocery stores  or dine at unhealthy local fast-food chains. Additionally, the threat of a West Harlem food hall in Jerome L. Greene Science Center could put more strain on local restaurant owners, offering pricier options."
+            },
+            {
+              "type": "text",
+              "value": "Gentrification generally begins when investors try to transform affordable communities for their own profit. When newer, more expensive development attracts wealthier and younger people, it leads to major demographic shifts that prices out those originally living in the community. In New York City, the displaced are often people of color who have historically faced issues of racist housing practices."
+            },
+            {
+              "type": "text",
+              "value": "While gentrification is often analyzed in the context of housing, data reveals that gentrification and restaurants are interconnected. When lower-income minority residents are pushed out of communities, the restaurants catering to these populations often shut down, and when wealthier people move into these communities, they bring with them upscale and trendy eateries, along with higher-end chain restaurants."
+            },
+            {
+              "type": "text",
+              "value": "According to Joshua Sbicca, an associate professor of sociology at Colorado State University, restaurants often reflect the processes of gentrification and, in some cases, drive changes in neighborhood class and ethnoracial demographics. Sbicca found that food gentrification can be analyzed both economically and culturally. For instance, lower-income communities may struggle to afford to live in certain areas in cities like New York when developers launch urban agriculture projects to attract new and wealthier residents, even when these projects aim to fill the very gaps they may create."
+            },
+            {
+              "type": "text",
+              "value": "“As a neighborhood is changing, one of the first things that we would see is a Starbucks or a chain restaurant or chain store that replaces a mom-and-pop local retailer that's been there for generations,” Analena Hassberg, an assistant professor of ethnic and women’s studies at California State Polytechnic University, said. “Food is symbolic of gentrification in a lot of ways because the restaurants, the ones that are coming in, the ones that are getting pushed out, often bring with them this kind of cultural signification of who's in the neighborhood, what kind of income people are bringing in based on the prices at a restaurant.”"
+            },
+            {
+              "type": "text",
+              "value": "When food itself is gentrified, foods culturally important to marginalized groups become \"cool\" and thus, unaffordable. As a result, food retail becomes more upscale, displacing the original restaurants. With this comes what Nevin Cohen, associate professor at the City University of New York Graduate School of Public Health, calls “food mirages,” when high-quality food is priced just out of reach of longtime residents."
+            },
+            {
+              "type": "text",
+              "value": "“Historically, at least, you've seen … the ‘tragic pioneers’ of gentrification: the artists and people who are seeking affordable places to live in the city and who actually kind of appreciate cultural diversity,” Eric Sarmiento, assistant professor in the department of geography at Texas State University, said. “There's also the kind of fetishization of urban authenticity or grittiness, or whatever you want to call it amongst those groups usually.”"
+            },
+            {
+              "type": "text",
+              "value": "To an extent, this phenomenon has occurred recently in Morningside Heights and West Harlem. Restaurants like Taqueria y Fonda, which serves traditional Mexican fare, and Freda’s Caribbean & Soul Cuisine have become favorite spots of many in the community, including Columbia students. The area has seen an uptick in Chinese, Vietnamese, and Indian offerings around campus as well, signifying that even with the emergence of chains, ethnic eateries have remained relatively stable and have grown significantly. While many of these eateries have become trendy—leading many to raise prices over the past decade—others in West Harlem have disappeared, with few remnants of Southern and Latinx cuisines remaining around the new Manhattanville campus."
+            },
+            {
+              "type": "text",
+              "value": "In Harlem, food gentrification has attracted more European and classic American offerings to historic blocks, which has driven up real estate values and has forced long-time restaurants not only to raise prices, but change menus to cater to a less local audience. While historic cuisines like soul food have struggled to survive in the area, food gentrification in Harlem has also had some positive effects, such as the introduction of healthier options into the community—new restaurants like Seasoned Vegan and healthier supermarkets can help fight obesity in Central Harlem, which has a 31 percent adult obesity rate compared with the city’s overall rate of 24 percent."
+            },
+            {
+              "type": "text",
+              "value": "According to Zachary Hyde, an assistant professor at the department of human geography at the University of Toronto, there was a prominent classic model of gentrification in the 1990s that predicted the emergence of chains later in the gentrification process."
+            },
+            {
+              "type": "text",
+              "value": "Alison Alkon, a professor of sociology at the University of the Pacific and co-editor of the book “A Recipe for Gentrification: Food, Power, and Resistance in the City,” noted that food gentrification occurs in waves. In the first wave of gentrification, “people with maybe a lot of social capital but not a ton of money come in and displace historically marginalized communities in historically redlined neighborhoods,” according to Alkon. This first wave of gentrification greatly impacted West and Central Harlem beginning in the 1980s."
+            },
+            {
+              "type": "text",
+              "value": "A <a href=\"https://www.aeaweb.org/articles?id=10.1257/pandp.20181034\">Harvard research study</a> found a strong positive correlation between the number of cafés in an area and the number of college-educated residents. The number of cafés increases as neighborhoods become whiter and wealthier. A <a href=\"https://www.eater.com/21194965/gentrification-signs-restaurants-cafes-bars-nyc-chicago-san-francisco-portland\">recent Eater analysis</a> found a high correlation between the number of cafés and rising housing, rent, and income levels in areas of Brooklyn like Crown Heights and Bushwick."
+            },
+            {
+              "type": "text",
+              "value": "The openings of coffee shops in the last few years like Blue Bottle Coffee, Kuro Kuma Espresso & Coffee, Plowshares Coffee Roasters, and Demitasse Coffee & Tea suggest that this phenomenon might also be occurring around Columbia."
+            },
+            {
+              "type": "text",
+              "value": "Typically, high-end restaurants do not move into an area early in the gentrification process because the desired clientele does not align with the neighborhood’s makeup, according to Kaaryn Nailor Simmons, director of the Columbia-Harlem Small Business Development Center. This partially explains why a decade ago, newer restaurants along Broadway and Amsterdam Avenue in West Harlem were more inexpensive neighborhood spots, whereas on Broadway near Columbia’s campus, restaurants were more upscale and out of reach for some demographics."
+            },
+            {
+              "type": "text",
+              "value": "Between 2009-2014, national chains set up shop in seven new locations. Between 2015-2020, this figure rose up to 16, more than double in the same timespan of six years."
+            },
+            {
+              "type": "text",
+              "value": "According to Mary Rocco, a term assistant professor in Barnard’s urban studies department, while the traditional model of gentrification envisions a Starbucks, for instance, as the symbol of first-wave gentrification, this is rarely the case in New York anymore. Nowadays, gentrification involves the arrival of niche coffee shops, which then lead to the more upscale eateries."
+            },
+            {
+              "type": "text",
+              "value": "Rocco claimed that the next wave is fueled by commercial economic interest, which leads to physical “upgrading.” Eventually, that has a displacing effect on small businesses that exist prior to that new wave of gentrification."
+            },
+            {
+              "type": "text",
+              "value": "She cited the example of later-stage gentrification in which the Abyssinian Development Corporation pushed for the creation of a new Pathmark in Harlem. While many in the community believed the supermarket would provide healthier options, it also displaced a number of smaller businesses within the footprint and threw a wrench into the affordability of food in East Harlem."
+            },
+            {
+              "type": "text",
+              "value": "“It was also heralded by the community; the community was inherently involved in bringing it to 125th Street as a sort of grocery store that would have a multitude of food options,” Rocco said. “Over time, the Pathmark evolved to what is now sort of the Whole Foods. And so you can see how tastes change in the neighborhood and that’s sort of the acceleration, I think, a little bit of gentrification.”"
+            },
+            {
+              "type": "text",
+              "value": "This evolution has been fittingly named the “Whole Foods Effect,” in which specialty grocers with services like a butcher, bakery, and florist can generate price premiums of almost 20 percent. A study by Zillow also found that homes near either Whole Foods or Trader Joe’s cost more and appreciate twice as much as the average U.S. home."
+            },
+            {
+              "type": "text",
+              "value": "In what is traditionally considered the second wave of gentrification, restaurants become more expensive and physically larger as more young professionals and entrepreneurs move into the area. These entrepreneurs often include restaurant owners who look to cater to a new demographic of residents with higher incomes. Beyond coffee shops, restaurants with waiter service and larger spaces grow during the second wave, sometimes with higher prices than competitors in the neighborhood. According to the Eater analysis, an increase in home prices and waitstaff restaurants are highly correlated in Harlem—the number of wait service restaurants in Harlem grew by over 20 percent as average housing prices soared from $588,000 to $777,000 from 2013 to 2015."
+            },
+            {
+              "type": "text",
+              "value": "According to Hassberg, gentrification is “both a physical and cultural phenomenon,” meaning that as more trendy eateries come into a neighborhood, some longer-term residents may feel that the neighborhood is losing its culture. For instance, in an area like West Harlem that has historically been lower-income, many trendier restaurants that have moved in are symbolic of a more affluent perspective. The opposite is also true: Some restaurants might come into an area and appropriate local culture, often to attract tourists."
+            },
+            {
+              "type": "text",
+              "value": "“So there are the restaurants that are coming in, and it might be something like a brewery or an artisan sandwich place or a new cafe with $15 lattes, and it’s changing the kind of cultural scope and feel of the neighborhood,” Hassberg said."
+            },
+            {
+              "type": "text",
+              "value": "Alkon noted how food gentrification contributes to both material and symbolic exclusion. As high-end restaurants and upscale chains move into an area, some lower-income demographics cannot afford many restaurants in the area. Thus, they are materially excluded from the area. When restaurants change over but the long-term community sticks around, residents can begin to feel that the neighborhood may not be for them anymore."
+            },
+            {
+              "type": "text",
+              "value": "“[Gentrification] leads to feelings of marginalization beyond just the economic exclusion with a feeling that this was our place,” Alkon said. “We built this place. Often, we built this place up under really kind of hard conditions where the kinds of investments that were available to wealthier and whiter communities were systematically denied to low-income, especially Black communities.”"
+            },
+            {
+              "type": "text",
+              "value": "When Marcus Samuelsson opened Red Rooster in Harlem, many in the community considered this as accelerating gentrification, since its prices soared above those of nearby restaurants. Additionally, the restaurant attracted diners from outside the area, many of whom would travel to Harlem only to dine and not explore the area or shop at local stores. Whereas wealthier Black populations in Harlem can afford to dine at these new restaurants, lower-income Black communities may be priced out."
+            },
+            {
+              "type": "text",
+              "value": "Part of the reason why the cuisines of Harlem and Morningside Heights have remained relatively stable is because of the value placed by affluent communities on perceived authenticity, which oftentimes is associated with lower-priced cuisines. According to Sharon Zukin, professor emerita of sociology at Brooklyn College and the City University of New York Graduate Center, authenticity is a significant vector of what people consider good food."
+            },
+            {
+              "type": "text",
+              "value": "“The people who are really authentic don’t think about being authentic. It’s only the outsiders who look at them, or in this case, it’s outsiders who go to a restaurant that is not really theirs,” Zukin said. “They make a judgment that it’s authentic, but the people who are cooking that food, ‘authentic’ is not really in their vocabulary. It’s not what they’re thinking. They’re thinking, ‘Is it good food? Is it not good food? Is it like the food my mother used to cook or my grandmother used to cook?’ But they’re not thinking in terms of a concept of authenticity.”"
+            },
+            {
+              "type": "text",
+              "value": "This phenomenon has been rather pronounced in areas like Harlem, in which many lower-income residents who operated local restaurants and shops had to move out to more affordable areas. Furthermore, while more upscale restaurants like Red Rooster and Sylvia’s attract tourists to the area to sample their world famous food, more local and traditional joints are hit harder by neighborhood outsiders unfamiliar with the cuisine."
+            },
+            {
+              "type": "text",
+              "value": "Zukin conducted a study with her students comparing Yelp reviews in Bedford-Stuyvesant, a predominantly working-class Black neighborhood, with Greenpoint, a wealthier and whiter neighborhood. As with many Yelp reviews, Zukin hypothesized that many of the reviewers did not patronize the restaurants on a regular basis. She found that when looking at many soul food and Caribbean restaurants in Bed-Stuy which were “not necessarily expensive but were more refined in certain ways and presented themselves differently from most of the local restaurants,” reviews were on the whole more negative than those serving more refined food. Negative reviews often cited factors like greasiness or ambiance as major issues."
+            },
+            {
+              "type": "text",
+              "value": "In contrast, glowing reviews for Polish restaurants in Greenpoint lauded both food quality and authenticity. Zukin, though, noted that Polish food is quite similar to the Caribbean-style cooking lambasted on Yelp, as both cuisines feature just a few simple core ingredients. According to the paper, the reviews seem to suggest some harm in craving authentic culinary experiences, especially when the number of stars in Yelp reviews is correlated to the volume of business that a restaurant does."
+            },
+            {
+              "type": "text",
+              "value": "That people are even eating Caribbean and Polish cuisines is symptomatic of the “democratization of foodie culture” according to Hyde. This process has rendered the act of accruing cultural capital more important than the ability to afford fancy food. Over the last few decades, for instance, people have increasingly eaten across the culinary hierarchy by dining at Michelin star restaurants one day and a hole-in-the-wall food stall the next."
+            },
+            {
+              "type": "text",
+              "value": "“Democratizing food in a low-income neighborhood allows foodies to see themselves as participating in a more democratic process,” Hyde said. “But at the same time, most of the low-income neighborhoods still couldn't afford to eat in restaurants, because they're not Michelin star restaurants, but they're still like $25-30 per plate of food.”"
+            },
+            {
+              "type": "text",
+              "value": "When gentrification reaches its later stages, Hyde noted that there are two main types of displacement that especially impact lower-income communities: forced moves and responsive moves."
+            },
+            {
+              "type": "text",
+              "value": "Hyde stated that forced moves involve some sort of eviction or the tearing down of a building. Columbia, with the help of the New York state government, has forcibly moved a number of businesses in preparation for the construction of the Manhattanville campus, even going so far as to threaten the use of eminent domain to seize their property. A number of restaurants, including Floridita, were evicted and forced to relocate to 12th Avenue or different neighborhoods."
+            },
+            {
+              "type": "text",
+              "value": "According to Hyde, responsive moves differ from evictions in that they are caused by more implicit factors that drive out lower-income residents, like rising rents. Responsive moves strongly impacted restaurants surrounding Manhattanville, as dramatic increases in rent forced owners to decide whether to remain in the area or relocate."
+            },
+            {
+              "type": "text",
+              "value": "According to a paper by Rachel Meltzer, an associate professor of urban policy and chair of the MS public and urban policy program at the Milano School of Policy, displacement is no more prevalent in the typical gentrifying neighborhood than in non-gentrifying neighborhoods. But when businesses do leave gentrified neighborhoods, their old spaces often sit vacant for longer periods of time than in non-gentrified neighborhoods. Ultimately, gentrified neighborhoods usually attract chains to replace displaced businesses."
+            },
+            {
+              "type": "text",
+              "value": "Smaller businesses cannot afford to stay open once the chains move in, and even some trendier businesses struggle to compete with the influx of huge chains. Finding staff to work at the long-standing restaurants in these neighborhoods also becomes difficult, since employees often cannot afford to live in the neighborhoods of the restaurant.  At restaurants like Ollie’s Noodle Shop & Grille and The Tang Chinese Noodle Bar, for example, many staffers commute from areas with cheaper rents such as Flushing or Chinatown. In areas like the Lower East Side, which has been experiencing gentrification for decades, the number of restaurants is declining yearly."
+            },
+            {
+              "type": "text",
+              "value": "“It seems to me that there's two kinds of restaurants that kind of can make it in this hyper-inflated real estate moment,” Alkon said. “One are the chains, because they have money from the chain, and the other are these venture capital-backed chef-driven projects, so in Harlem, something like Red Rooster.”"
+            },
+            {
+              "type": "text",
+              "value": "Some scholars have even pointed to a stage called “super-gentrification,” an intensified period of regentrification in which super-rich financiers displace the original gentrifiers. Although those interviewed disagree on what exact stage of gentrification Morningside Heights and West Harlem are currently in, some have suggested that the area surrounding Columbia is in a state of super-gentrification due to the influx of chains, construction of condos and new high-rises in surrounding neighborhoods, and policing practices around the University."
+            },
+            {
+              "type": "text",
+              "value": "Another form of late-stage gentrification that has occurred in the areas surrounding Morningside Heights is new-build gentrification, which occurs when new developments move in and chain restaurants purchase large retail storefront on the bottom floors. Oftentimes, developers will make a deal with a particular chain for a 10-year lease even before construction on the building begins."
+            },
+            {
+              "type": "text",
+              "value": "The phenomenon of late-stage food gentrification becomes more apparent when smaller chains get replaced by larger chains. Aaron Passell, associate director of urban studies at Barnard, pointed to the example of the Shake Shack on Broadway and 116th Street, which replaced the small New York-based Chinese chain restaurant Ollie’s after a fire. Passell noted that in an area like Morningside Heights, this path from smaller business to national chain is rather common."
+            },
+            {
+              "type": "text",
+              "value": "While Passell acknowledged that the commercial gentrification that goes with a large student population—providing the sorts of consumption opportunities that appeal to students—is real, he also acknowledged that residential gentrification by students is an outstanding question in gentrification scholarship. While the student population stays relatively consistent, the individuals change every year, which is different from when artists and musicians moved into the Lower East Side for longer periods of time. Since there are such varying degrees of disposable income among students who rent in the area and students are short-term renters, their contribution to residential gentrification remains under-researched."
+            },
+            {
+              "type": "text",
+              "value": "Nonetheless, when people begin to feel excluded from their own neighborhood, especially one that they helped to develop, communities begin to lose their individuality. Alkon described the rise of chains in many neighborhoods as a process of “McDonaldization,” a term coined by sociologist George Ritzer to describe how society takes on the characteristics of a fast-food restaurant. When applied to food gentrification, Alkon noted that as chains become more widespread, places across the country begin to look very similar, destroying the “grooves and intricacies that made things unique in particular places.”"
+            },
+            {
+              "type": "text",
+              "value": "“I think that frustration with the kind of sameness of the suburbs was something that really drove a lot of young folks in my generation to go and try and live in cities and find kind of funky and interesting neighborhoods and create local businesses, and there was kind of a push, a kind of counter-corporate globalization,” Alkon said."
+            },
+            {
+              "type": "text",
+              "value": "Alkon noted how even though there are regular attempts to try to prevent chains moving into cities like New York, it becomes an endless cycle where the chains always seem to win. When people moved back into cities due to the sameness of the suburbs, they were often moving back into neighborhoods where white middle-class people had not formerly lived, such as West Harlem or along Columbus Avenue. At first, this movement led to a rise in experimental and artsy businesses as part of the first-wave of gentrification. Cities like New York are now in later stages of gentrification where prices are so high that the only restaurants that can come back in are chains. As people try to escape chains and the monotony of suburban restaurants, they make their way into urban spaces—essentially following the gentrifiers."
+            },
+            {
+              "type": "text",
+              "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
+            },
+            {
+              "type": "text",
+              "value": "<i>Andrew Park is a Graphics reporter. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
+            },
+            {
+              "type": "footer",
+              "value": ""
+            }
+          ],
+          "page_2": [
+            {
+              "type": "text",
+              "value": "The emergence of chains around Columbia, paired with the recent openings of “food gentrifiers,” has led some residents like Dan McSweeney, who works at the Morningside Heights Historic District Committee, to take action. The Morningside Heights that he knew as a center for mom-and-pop eateries has been slowly erased. Along Broadway by campus, national chains and empty storefronts seem to be the new norm; as prices rise, more and more people find themselves feeling like outsiders in their own neighborhoods."
+            },
+            {
+              "type": "text",
+              "value": "However, not all hope is lost. According to McSweeney, 12 local businesses have already signed up to participate in a new initiative tentatively called Morningside Merchants, a small business association for the neighborhood. The association aims to help local businesses in the community stay afloat. This idea came after the Morningside Heights Community Coalition was approached by the New York City Department of Small Business Services, which offered to help educate local restaurants about navigating the resources available to them."
+            },
+            {
+              "type": "text",
+              "value": "“[The community should] promote individual businesses as unique purveyors of goods and services, where they’re establishments that are grounded in the neighborhood. They know the neighborhood. They have elections in the neighborhood, and it’s in the interest of everyone to support that,” McSweeney said."
+            },
+            {
+              "type": "text",
+              "value": "McSweeney also noted that through this initiative, Columbia students can not only develop relationships with business managers and employees, but also protect the culture of Morningside Heights and West Harlem, which he believes is being taken over by “faceless corporate entities that don’t have any connection to our neighborhood.” Along with this, he claimed that the residents would have an opportunity to promote Morningside Heights as a place of commerce and authentic relationships and “a vibrant shopping and dining district” via outreach campaigns."
+            },
+            {
+              "type": "text",
+              "value": "“I think it takes connecting to the stakeholders, establishing a baseline understanding of what is happening right now, and then working toward developing a vision for how the neighborhood develops in terms of its local businesses and overall commerce,” McSweeney said."
+            },
+            {
+              "type": "text",
+              "value": "Analena Hassberg, an assistant professor of ethnic and women’s studies at California State Polytechnic University, believes combatting food gentrification will need to involve policy changes such that people can afford to live in their neighborhood without getting priced out. Hassberg cited common policies like rent control, affordable housing, land trusts, inclusionary zoning policies, and living wage ordinances as essential for resisting the later stages of gentrification."
+            },
+            {
+              "type": "text",
+              "value": "Because residents are unwittingly or unintentionally complicit in neighborhood gentrification even by just paying rent or dining at more upscale restaurants, according to Hassberg, they should support organizations that are engaged in resisting these changes. Organizations nationwide have been resisting displacement through methods like building gardens, creating co-ops, and implementing a neighborhood barter system to supplement food costs."
+            },
+            {
+              "type": "text",
+              "value": "“If we want our neighborhoods to look like places with real cultural history and folks who are creating and sustaining a long lineage history in a neighborhood, then we have to support those kinds of [local] establishments, so it’s the choice between Starbucks for your morning coffee or the local cafe, and really being intentional on a personal level,” Hassberg said. “More importantly is thinking about how we put our efforts toward supporting larger structural change, supporting ordinances that are going to create affordable cities for the folks who are at or below the poverty line.”"
+            },
+            {
+              "type": "text",
+              "value": "While efforts to clean up neighborhoods and open up healthier groceries can have positive impacts on communities, another contributor to food gentrification around Columbiais the process of green gentrification, a process in which providing “green” amenities drives up rent and attracts wealthier residents to a neighborhood. While the Morningside Heights area has always had numerous parks and green spaces, the introduction of community gardens, green roofs, and energy efficient building materials has likely played a role in making the area more attractive for wealthier residents."
+            },
+            {
+              "type": "text",
+              "value": "Additionally, the proliferation of green amenities is apparent with the openings of healthier and more expensive supermarkets known as “supermarket greenlining,” which occur when grocers target areas undergoing gentrification and act as ethical businesses concerned about these communities."
+            },
+            {
+              "type": "text",
+              "value": "“[A] strategy that people have used in communities of color and lower-income neighborhoods who have been fighting for environmental justice for decades, now they’re seeing their successes and environmental justice fight are actually helping to grease the wheels for gentrification, which is a really thorny paradox,” Eric Sarmiento, assistant professor in the department of geography at Texas State University, said. “If you manage to get a toxic environment cleaned up, then it actually makes the area more interesting to investors in terms of the gentrification process.”"
+            },
+            {
+              "type": "text",
+              "value": "Like Hassberg, Sarmiento emphasized the significance of policy change, specifically social justice initiatives, in slowing food gentrification. He cited the “just green enough” strategy, which strives for environmental justice while trying to maintain well-paid and union jobs in the neighborhood so that green initiatives do not backfire on the communities they are meant to serve."
+            },
+            {
+              "type": "text",
+              "value": "Sarmiento noted that gentrification should not be considered a natural, unstoppable process. For example, very few people in Austin appreciate how rapidly the city is changing and how expensive it is becoming, which has pushed people to think creatively about resisting gentrification."
+            },
+            {
+              "type": "text",
+              "value": "One of the solutions Sarmiento cited is the rise of tenant unions—coalitions of both longtime residents and newcomers who organize against landlords who harass or try to evict tenants. In Crown Heights, Brooklyn, 40 buildings have come together to speak in support of a five-year rent freeze, fair renovations, and fair leases, among other demands. Tenant unions have been instrumental in protecting smaller eateries from predatory landlords and assisting restaurants in renegotiating fair leases."
+            },
+            {
+              "type": "text",
+              "value": "In addition, community benefits agreements have been on the rise throughout the city, which are signed between community groups and real estate developers and require developers to provide communities with certain amenities and benefits. Often, these agreements work to protect small businesses and prevent larger retailers from moving in. The community benefits agreement model was created as a way for communities to participate in planning economic development projects, such as the creation of a new block of restaurants, while ensuring that these projects benefit existing communities."
+            },
+            {
+              "type": "text",
+              "value": "Aaron Passell, associate director of urban studies at Barnard, who recently published a book on landmark designation in Brooklyn and Baltimore, commented that in addition to rent stabilization laws, designating a neighborhood as a landmark district prevents any significant changes to buildings without those changes being agreed upon by neighborhood preservation activists and approved by city council members. Because of this, small businesses receive additional protections and have additional resources for building maintenance."
+            },
+            {
+              "type": "text",
+              "value": "The Morningside Heights Historic District, approved by the Landmarks Preservation Commission in 2017, consists of 115 residential and institutional buildings, about two-thirds of which date back to between 1900 and 1910. Due to Morningside Heights’ status as a historic district, the effects of gentrification cannot occur to a great extent. Additionally, historic districts receive economic benefits through initiatives like the Historic Preservation Grant Program, which grants tens of thousands of dollars to repair parts of historic buildings, which is particularly beneficial for restaurants that occupy these spaces."
+            },
+            {
+              "type": "text",
+              "value": "Beyond maintaining the historic buildings in the area, according to Passell, preservation activism also functions as a community-building activity. For example, Crown Heights North Association, which formed as a home for the landmark designation process, also became a place that directed local residents’ attention to struggling mom-and-pop eateries on commercial strips and encouraged support for local retail. What began as a preservation advocacy effort turned into a community building organization that produced significant benefits to long-time residents, such as helping them identify predatory lending practices."
+            },
+            {
+              "type": "text",
+              "value": "“Proposing a landmark district and getting into law requires a significant amount of community organization, [so] it’s frequently the case that the process of designation enables communities to come together in ways that they haven’t previously,” Passell said."
+            },
+            {
+              "type": "text",
+              "value": "One of the most profound things that Passell noted in his research was that these community organizations helped people become integrated into the neighborhood and learn about its culture and history. If people from different backgrounds can feel strong connections to their community, this indirectly leads them to shop locally and support diversity, fighting against the movement of large corporations into the neighborhood."
+            },
+            {
+              "type": "text",
+              "value": "“One of the benefits of the Crown Heights North Association was that people began to talk about this neighborhood as a coherent, enduring, positive Black neighborhood with a particular character,” Passell said. “In the oral histories … they’re just beginning to talk about things like that as new people moved into the neighborhood, they didn’t have the habits associated with public space that the longtime residents had. They didn’t know you were supposed to say ‘Hi’ to people when you passed on the sidewalk. And one of the things about building a formal association tasked with the preservation of the neighborhood was it also allowed people to articulate the things that had gone unarticulated about the neighborhood.”"
+            },
+            {
+              "type": "subhed",
+              "value": "<b> </b><b>COVID-19 and Food Gentrification</b>"
+            },
+            {
+              "type": "text",
+              "value": "Although about 90 percent of restaurants in Morningside Heights and West Harlem have reopened or stayed open throughout the pandemic, many had to lay off significant portions of their staff. Restaurants in New York City can now operate at full capacity indoors, but for over a year, many restaurants in the area were operating on takeout and delivery-only models, with others having only some outdoor seating."
+            },
+            {
+              "type": "text",
+              "value": "Many chain restauransts around campus stayed open throughout the whole pandemic in part because they relied little on indoor dining. While this has kept employment numbers in the area up, many restaurant activists believe the wages paid to workers both before and during the pandemic are too little to live off of—New York City does have a minimum wage of $15 per hour, about double the federal minimum wage. The pandemic has forced many businesses to prioritize keeping their doors open over fighting for fairer wages. When restaurants, specifically mom-and-pop eateries, lack the cash flows to pay living wages, they risk losing members of their staff or closing permanently."
+            },
+            {
+              "type": "text",
+              "value": "The <a href=\"https://www.columbiaspectator.com/arts-and-entertainment/2020/04/03/chinese-restaurants-and-independent-eateries-face-heightened-closures-amid-covid-19/\">disparity between chains and single storefronts</a> in Morningside Heights was particularly apparent around the start of the pandemic when 37 out of 66 mom-and-pop shops closed compared with 19 out of 42. Larger chains not only have more economic resources than smaller restaurants, but also have received gigantic Paycheck Protection Program loans and other financial assistance. Chains like Shake Shack even returned their PPP loans since they were intended for smaller businesses. Additionally, the relief bill announcing that restaurants and other businesses employing under 500 people had to give paid sick leave for workers jeopardized the jobs and livelihoods of workers by putting greater strain on small businesses."
+            },
+            {
+              "type": "text",
+              "value": "According to Anthony Advincula, director of communications at Restaurant Opportunities Centers United, it is crucial to provide living wages to workers because they would then be able to afford healthier products such as local restaurants in the neighborhood. By providing a living wage, corporate-owned restaurants could find a talented workforce and remain in the community, and small businesses would have larger customer bases since people have more buying power. Paying living wages has a domino effect in that both chains and small businesses can survive."
+            },
+            {
+              "type": "text",
+              "value": "“There’s really no labor shortage. It is true, around 10 percent of workers in general and restaurant workers, [some] will get more income from the unemployment checks as opposed to working, but that’s a very small fraction of the industry,” Advincula said. “If you calculate their wages—the unemployment checks are based on the calculated wages—the fact that they have low wages to begin with, [and] when you calculate that over a certain period of time, it’s very tiny.”"
+            },
+            {
+              "type": "text",
+              "value": "The problem for Advincula, though, is that the issue of fair wages is mainly told from the perspective of the restaurant owner, not the workers. Few restaurant owners would outwardly say that they are not giving substantial living wages to their workers; many assume that employees would work for tips and thus feel little urge to pay higher wages. This power dynamic makes it more difficult for workers to not only fight for better wages but also return to work."
+            },
+            {
+              "type": "text",
+              "value": "Although the pandemic has made it more difficult for restaurant owners to pay higher wages, Mary Rocco, a term assistant professor in Barnard’s urban studies department, noted that in this post-pandemic comeback period, there has been increased support for small food businesses. The NYC Department of Small Business Services has launched a number of campaigns to help owners navigate local grants and encourage residents to buy from local businesses. Initiatives like the Restaurant Revitalization Fund and Fair Share NYC have provided technical assistance to many of the city’s restaurants, which a number of local restaurants have accessed. These programs have been particularly helpful for smaller restaurants that received little funding from federal grants or missed out on other aid opportunities."
+            },
+            {
+              "type": "text",
+              "value": "The pandemic has created a great divide between chains and non-chains, but in 2020, every borough experienced notable declines in chain stores. In Manhattan, which was hit the hardest, 17.4 percent of chains closed, accounting for about half of all chain store closures. This is the largest annual decline in chain stores since the Center for an Urban Future began collecting data in 2007. Dig, for example, closed 19 of its locations in 2020, while Starbucks closed 49 and Pret a Manger closed 16. The fact that all these chains still have open locations around Columbia suggests the profitability of operating in Morningside Heights."
+            },
+            {
+              "type": "text",
+              "value": "Alex Turboff, vice president of real estate at BCD, a real estate brokerage firm for restaurants and retail, suggested that the end of the eviction moratorium, which is extended through August 31 for COVID-19-related evictions, and issues surrounding the presence of Good Guy Guarantees may pose challenges for these businesses that have supposedly survived the worst. Good Guy Guarantees are legal promises stating that tenants unable to pay rent for the remaining lease term must give their landlord about three months notice that they will vacate the place, and in return the tenant has to pay fees up until the departure date."
+            },
+            {
+              "type": "text",
+              "value": "Although many chains have closed, some might capitalize on cheaper rents and an increase in empty storefronts along Broadway. However, Andre Neyrey, the owner and president of Blackwood Hospitality, noted that now is an optimal time for new restaurants of all sorts to open due to “pent up demand,” in which people are much more comfortable going out to eat. Around Columbia, many restaurants like Miss Saigon and Bánh have opened on Amsterdam Avenue, and others like Roberta’s are expected to open over the summer."
+            },
+            {
+              "type": "text",
+              "value": "Additionally, owners might be able to get a fully furnished restaurant for 25 percent rent and no key money or fees paid to landlords to secure leases, while avoiding some costs from plumbing, electrical, ventilation, and others."
+            },
+            {
+              "type": "text",
+              "value": "“There’s a lot of restaurants, unfortunately, that aren’t going to make it. Most of the rent moratoriums are lifted, and some of these landlords are already stacked up waiting to evict people unfortunately,” Neyrey said. “There’s going to be a lot of space available. Also, rents are much more reduced, because there’s so much inventory now, and as the inventory goes up, the price of them goes down, so you’re going to have better and better rent for a while.”"
+            },
+            {
+              "type": "text",
+              "value": "While the future of the restaurant industry remains uncertain, and as more local and national chains move into the area, activists have been fighting to maintain the culture, history, and complexity of the neighborhood, one cup of coffee at a time."
+            },
+            {
+              "type": "text",
+              "value": "“At the end of the day, this, like every community, is an interdependent collective of people that are influencing each other and supporting each other and so, business has a role in that overall dynamic,” McSweeney said."
+            },
+            {
+              "type": "text",
+              "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
+            },
+            {
+              "type": "text",
+              "value": "<i>Andrew Park is a Graphics reporter. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
+            },
+            {
+              "type": "footer",
+              "value": ""
+            }
+          ]
+        },
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
         "USE_COVER_HED": false,
         "IS_EMBED": false,
-        "DOC_URL": "https://docs.google.com/document/d/10Mj78bjvtS_sip6wLyeLVijFI2ZH1Xw4ZnHsY6UxD_Y/edit#heading=h.ezmg3ruoangt"
+        "DOC_URL": "https://docs.google.com/document/d/1LCNGdBqdiJ-3CnW2l6CZEIpAgxbjfOLjwlluL665tes/edit?fbclid=IwAR2IqYFgQ4pzn5DtfqqHjIDzaLKDkUBm_pILd256AfhN2p-9kI62mAvOzN0#"
       }
     }
   }

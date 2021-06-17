@@ -17,6 +17,8 @@
     "sass": "^1.26.5"
   },
   "dependencies": {
+    "d3": "^7.0.0",
+    "enter-view": "^2.0.1",
     "intersection-observer": "^0.10.0",
     "text-balancer": "^1.0.5"
   },
@@ -33,6 +35,6 @@
     "USE_EYE_NAV": false,
     "USE_COVER_HED": false,
     "IS_EMBED": false,
-    "DOC_URL": "https://docs.google.com/document/d/10Mj78bjvtS_sip6wLyeLVijFI2ZH1Xw4ZnHsY6UxD_Y/edit#heading=h.ezmg3ruoangt"
+    "DOC_URL": "https://docs.google.com/document/d/1LCNGdBqdiJ-3CnW2l6CZEIpAgxbjfOLjwlluL665tes/edit?fbclid=IwAR2IqYFgQ4pzn5DtfqqHjIDzaLKDkUBm_pILd256AfhN2p-9kI62mAvOzN0#"
   }
 }
