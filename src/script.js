@@ -1,6 +1,8 @@
 import enterView from 'enter-view';
 import textBalancer from 'text-balancer';
 import initiatePage from './scripts/page';
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 import { intersectTop } from './scripts/utils';
 import { spectate as spectateConfig } from '../package.json';
 import './scripts/table';

@@ -1,7 +1,7 @@
 {
   "headline": "The Changing Food Landscape: How The Columbia area shifted from mom-and-pop restaurants to a hotspot for chains and trendy eats",
   "date": "June 16, 2021",
-  "byline": "Noah Sheidlower, <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+  "byline": "Article + Data by <a href=\"https://www.columbiaspectator.com/contributors/noah-Sheidlower\">Noah Sheidlower</a> <br> Data reporting and graphics by <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Dreyton-Amador/\">Dreyton Amador</a>",
   "pages": {
     "page_0_link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/06/17/the-changing-food-landscape-how-the-columbia-area-shifted-from-mom-and-pop-restaurants-to-a-hotspot-for-chains-and-trendy-eats/",
     "page_0_title": "",
@@ -9,20 +9,20 @@
     "page_0_cover_caption": "",
     "page_0_heading": "Part 1",
     "page_0_date": "June 16, 2021",
-    "page_0_byline": "By Noah Sheidlower, <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+    "page_0_byline": "Article + Data by <a href=\"https://www.columbiaspectator.com/contributors/noah-Sheidlower\">Noah Sheidlower</a> <br> Data reporting and graphics by <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Dreyton-Amador/\">Dreyton Amador</a>",
     "page_1_link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/06/17/food-gentrification-and-its-impact-on-the-community/",
     "page_1_title": "Food Gentrification and its Impact on the Community",
     "page_1_cover_img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MNTQUFNQVZAJDNL2GQ56XUGPF4.jpg",
     "page_1_cover_caption": "",
     "page_1_heading": "Part 2",
     "page_1_date": "June 16, 2021",
-    "page_1_byline": "By Noah Sheidlower, <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+    "page_1_byline": "Article + Data by<a href=\"https://www.columbiaspectator.com/contributors/noah-Sheidlower\"> Noah Sheidlower</a> <br> Data reporting and graphics by <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Dreyton-Amador/\">Dreyton Amador</a>",
     "page_2_link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/06/17/combatting-chainification-and-food-gentrification/",
     "page_2_title": "Combatting ‘chainification’ and food gentrification",
     "page_2_cover_img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/D6MAYEHD4ZGMXEM7NMV2IIN6BY.JPG",
     "page_2_cover_caption": "",
     "page_2_heading": "Part 3",
-    "page_2_byline": "By Noah Sheidlower, <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>",
+    "page_2_byline": "Article + Data by <a href=\"https://www.columbiaspectator.com/contributors/noah-Sheidlower\">Noah Sheidlower</a> <br> Data reporting and graphics by <a href=\"https://www.columbiaspectator.com/contributors/Charlotte-Li\">Charlotte Li</a>, <a href=\"https://www.columbiaspectator.com/contributors/Andrew-Park/\">Andrew Park</a>, and <a href=\"https://www.columbiaspectator.com/contributors/Dreyton-Amador/\">Dreyton Amador</a>",
     "page_2_date": "June 16, 2021"
   },
   "bodies": {
@@ -272,11 +272,19 @@
       },
       {
         "type": "text",
+        "value": "<i>Arts & Entertainment editor Noah Sheidlower can be contacted at </i><i>noah.sheidlower@columbiaspectator.com</i><i>. Follow him on Twitter </i><a href=\"https://twitter.com/NSheidlower\"><i>@NSheidlower</i></a><i>.</i>"
+      },
+      {
+        "type": "text",
         "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
       },
       {
         "type": "text",
         "value": "<i>Andrew Park is a Graphics reporter. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
+      },
+      {
+        "type": "text",
+        "value": "<i>Dreyton Amador is a Graphics reporter. He can be contacted at </i><a href=\"mailto:dreyton.amador@columbiaspectator.com\"><i>dreyton.amador@columbiaspectator.com</i></a>"
       },
       {
         "type": "footer",
@@ -478,11 +486,19 @@
       },
       {
         "type": "text",
+        "value": "<i>Arts & Entertainment editor Noah Sheidlower can be contacted at </i><i>noah.sheidlower@columbiaspectator.com</i><i>. Follow him on Twitter </i><a href=\"https://twitter.com/NSheidlower\"><i>@NSheidlower</i></a><i>.</i>"
+      },
+      {
+        "type": "text",
         "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
       },
       {
         "type": "text",
         "value": "<i>Andrew Park is a Graphics reporter. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
+      },
+      {
+        "type": "text",
+        "value": "<i>Dreyton Amador is a Graphics reporter. He can be contacted at </i><a href=\"mailto:dreyton.amador@columbiaspectator.com\"><i>dreyton.amador@columbiaspectator.com</i></a>"
       },
       {
         "type": "footer",
@@ -636,11 +652,19 @@
       },
       {
         "type": "text",
+        "value": "<i>Arts & Entertainment editor Noah Sheidlower can be contacted at </i><i>noah.sheidlower@columbiaspectator.com</i><i>. Follow him on Twitter </i><a href=\"https://twitter.com/NSheidlower\"><i>@NSheidlower</i></a><i>.</i>"
+      },
+      {
+        "type": "text",
         "value": "<i>Charlotte Li is a Graphics deputy editor. She can be contacted at </i><a href=\"mailto:charlotte.li@columbiaspectator.com\"><i>charlotte.li@columbiaspectator.com</i></a><i>.</i>"
       },
       {
         "type": "text",
         "value": "<i>Andrew Park is a Graphics reporter. He can be contacted at </i><a href=\"mailto:andrew.park@columbiaspectator.com\"><i>andrew.park@columbiaspectator.com</i></a><i>.</i>"
+      },
+      {
+        "type": "text",
+        "value": "<i>Dreyton Amador is a Graphics reporter. He can be contacted at </i><a href=\"mailto:dreyton.amador@columbiaspectator.com\"><i>dreyton.amador@columbiaspectator.com</i></a>"
       },
       {
         "type": "footer",
